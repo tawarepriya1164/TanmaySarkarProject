@@ -1,0 +1,36 @@
+package Pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class Demo {
+	public static void main(String[] args) 
+	{
+		WebDriver driver;
+		//String browseName;
+		
+		//browserName.equals("mozilla");
+		
+		Demo.browseOperation();
+	}
+
+	private static void browseOperation() {
+		String browserName="mozilla";
+		// TODO Auto-generated method stub
+		if(browserName=="chrome")
+		{
+			System.out.println("open chrome");
+		}
+		else if(browserName=="IE")
+		{
+			System.out.println("open Explorer");
+		}
+		else if(browserName=="mozilla")
+		{
+			System.out.println("open Mozilla");
+		}
+		else
+		{
+			System.out.println("Invalid browser");
+		}
+	}
+}

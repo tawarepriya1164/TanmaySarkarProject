@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22883" started-at="2018-08-17T11:52:15Z" finished-at="2018-08-17T11:52:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22883" started-at="2018-08-17T11:52:15Z" finished-at="2018-08-17T11:52:38Z">
+      <class name="Script.Script1">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:Script.Script1@4883b407]" name="initialization" is-config="true" duration-ms="4336" started-at="2018-08-17T07:52:15Z" finished-at="2018-08-17T07:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="TC_01()[pri:1, instance:Script.Script1@4883b407]" name="TC_01" duration-ms="2518" started-at="2018-08-17T07:52:20Z" description="Add basic Information" finished-at="2018-08-17T07:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="TC_02()[pri:2, instance:Script.Script1@4883b407]" name="TC_02" duration-ms="1922" started-at="2018-08-17T07:52:22Z" description="perform operations on First frame" finished-at="2018-08-17T07:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+        <test-method status="PASS" signature="TC_03()[pri:3, instance:Script.Script1@4883b407]" name="TC_03" duration-ms="2499" started-at="2018-08-17T07:52:24Z" description="perform operation on second frame" finished-at="2018-08-17T07:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method status="PASS" signature="TC_04()[pri:3, instance:Script.Script1@4883b407]" name="TC_04" duration-ms="11576" started-at="2018-08-17T07:52:27Z" description="multiple checkbox handle" finished-at="2018-08-17T07:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04 -->
+      </class> <!-- Script.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
